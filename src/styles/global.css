@@ -137,6 +137,11 @@ aside a{
   cursor: pointer;
 }
 
+#divButton:hover {
+  background-color: #212121;
+  transition: .3s;
+}
+
 button {
   width: 18.4rem;
   margin-top: 2.5rem;
