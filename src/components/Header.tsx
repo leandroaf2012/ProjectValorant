@@ -2,6 +2,7 @@ import logo from '../components/assets/logo.svg';
 import { TiArrowSortedDown } from 'react-icons/ti';
 
 export function Header() {
+    
     return (
         <header className="header-bar">
             

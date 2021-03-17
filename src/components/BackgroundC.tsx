@@ -8,10 +8,10 @@ import { FiGlobe } from 'react-icons/fi';
 import retakered from './assets/retakered.mp4';
 
 export function BackgroundC() {
-    
+
     return(
         <div className="containerMain">
-            
+            <div className="imgdefundo"></div>
             <video muted autoPlay loop>
                 <source src={retakered} type="video/mp4" />
             </video>
@@ -19,15 +19,17 @@ export function BackgroundC() {
             <div className="textDiv">
                 
                 <p>A 5v5 character-based tactical shooter</p>
-                <img src={ReactLogo} alt="Valorant Name" className="valorantText"/>
+                <img src={ReactLogo} alt="Valorant Name" className="valorantText" />
                 
                 <button>
                     <div id="divButton">
                         <span>
                             play free
                         </span>
+                        <section />
                     </div>
                 </button>
+
             </div>
 
             
